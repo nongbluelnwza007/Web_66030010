@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio รวมผลงานด้านการพัฒนาเว็บไซต์และโครงการที่สนใจ">
+    <title>My Portfolio | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="logo">My<span>Space</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cv.html">Profile</a></li>
+                <li><a href="portfolio.html" class="active" aria-current="page">Portfolio</a></li>
+                <li><a href="password.html">Password Gen</a></li>
+                <li><a href="blackjack.html">Blackjack</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container portfolio-layout">
+        <header class="portfolio-header text-center">
+            <h1>หน้าแสดงผลงาน (Portfolio)</h1>
+            <p>รวมรวบโครงการและผลงานด้าน Technology ที่ผมได้ศึกษาและพัฒนา</p>
+        </header>
+
+        <div class="portfolio-grid">
+            
+            <div class="portfolio-item card">
+                <div class="item-icon">🖥️</div>
+                <h3>Personal Website</h3>
+                <p>เว็บไซต์ส่วนตัวที่สร้างด้วย Semantic HTML, CSS Grid/Flexbox, และ Vanilla JavaScript เน้นหลัก Responsive และ Progressive Enhancement</p>
+                <div class="item-tags">
+                    <span class="tag">HTML/CSS</span>
+                    <span class="tag">Responsive</span>
+                </div>
+            </div>
+
+            <div class="portfolio-item card">
+                <div class="item-icon">💧</div>
+                <h3>Water Quality Monitor</h3>
+                <p>โครงการวัดคุณภาพน้ำและอัตราการไหล ใช้เซ็นเซอร์ TDS/Flow ร่วมกับไมโครคอนโทรลเลอร์ ESP32</p>
+                <div class="item-tags">
+                    <span class="tag">ESP32</span>
+                    <span class="tag">C++</span>
+                    <span class="tag">IoT</span>
+                </div>
+            </div>
+
+             <div class="portfolio-item card">
+                <div class="item-icon">🔒</div>
+                <h3>Web Security Lab</h3>
+                <p>ศึกษาการเจาะระบบเบื้องต้น เช่น XSS, IDOR และ NoSQL Injection ผ่าน OWASP Juice Shop</p>
+                <div class="item-tags">
+                    <span class="tag">CyberSec</span>
+                    <span class="tag">OWASP</span>
+                </div>
+            </div>
+
+            <div class="portfolio-item card">
+                <div class="item-icon">🃏</div>
+                <h3>JS Blackjack & Password Gen</h3>
+                <p>แอปพลิเคชันฝั่งไคลเอนต์เขียนด้วย JavaScript จัดการลอจิกเกมไพ่และการสุ่มรหัสผ่าน</p>
+                <div class="item-tags">
+                    <span class="tag">JavaScript ES6</span>
+                    <span class="tag">Logic</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 กันตพัฒน์ ตั้งกิตติธารา. สร้างด้วย HTML, CSS และ Vanilla JS.</p>
+    </footer>
+</body>
+</html>
